@@ -2,6 +2,13 @@
 
 # Autonomous Navigation System
 
+## 🎥 Demo Video
+
+[![Autonomous Navigation Demo](https://img.youtube.com/vi/LT9o9sHwH88/maxresdefault.jpg)](https://youtu.be/LT9o9sHwH88)
+
+**[► Watch the full navigation demonstration on YouTube](https://youtu.be/LT9o9sHwH88)**
+
+*Complete autonomous navigation from GUIDED mode through gate detection and passage*
 
 ## Features
 - Autonomous GUIDED mode setting
