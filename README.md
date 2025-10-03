@@ -123,6 +123,14 @@ ros2 launch navigation_package navigation.launch.py
   - **Subscriber**: `/navigation/detection_complete` (waits for rotation_node completion)
   - **Publisher**: `/mavros/setpoint_velocity/cmd_vel_unstamped` (forward movement commands)
 
+## Chain of thought:
+- It was difficult to begin the project at first glance due to the sheer scale of it. I had to link ROS2, python and unity all together.
+
+- I started by breaking down the solution into 4 processes and then created them with nodes.
+
+- The movement part was quite straightforward but the detection portion was a little bit tricky as there were other objects too, not just the gate. That led me to think about making a filter and I realised luckily, each object had a unique label name which I could use. I discovered this solution when I played with the ros2 topic list and ros2 service list.
+
+- Some of the most important things I learnt is how subscribers can react once it receives  information of a process ending from a publisher. I also realised the usefulness of ros2 service list and ros2 topic list. 
 
 
 ## Additional comments:
